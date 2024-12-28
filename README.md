@@ -28,4 +28,27 @@ This project relies on the following libraries, managed via Maven:
 | `slf4j-simple`              | 1.7.30           | Logging framework for runtime information.|
 
 
+---
+
+## Running the Tool
+
+### Running Predefined Cases
+The following files can be executed directly:
+
+MainCase1.java
+MainCase2.java
+MainCase3.java
+MainCase4.java
+MainCase5.java
+
+### Using the Smoothing Function
+You can use the tool to process custom heading data:
+double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);
+
+## Results
+![Case 1](./Case1.png)
+![Case 2](./Case2.png)
+![Case 3](./Case3.png)
+![Case 4](./Case4.png)
+![Case 5](./Case5.png)
 
