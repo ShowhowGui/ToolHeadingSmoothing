@@ -34,15 +34,15 @@ This project relies on the following libraries, managed via Maven:
 
 ### Running Predefined Cases
 The following files can be executed directly:
-`MainCase1.java`
-`MainCase2.java`
-`MainCase3.java`
-`MainCase4.java`
-`MainCase5.java`
+`MainCase1.java`,
+`MainCase2.java`,
+`MainCase3.java`,
+`MainCase4.java`, and
+`MainCase5.java`.
 
 ### Using the Smoothing Function
 You can use the tool to process custom heading data:
-`double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);`
+``double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);``
 
 ---
 
