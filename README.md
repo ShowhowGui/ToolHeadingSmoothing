@@ -4,10 +4,9 @@
 This tool provides a simple and efficient method for smoothing trajectory heading data. It is especially useful in applications such as:
 - Trajectory heading analysing
 - Robotics navigation
-- GPS tracking data preprocessing
 - Motion analysis for vehicles or drones
 
-By smoothing heading data, this tool helps reduce noise and improve trajectory visualization.
+By smoothing heading data, this tool helps to reduce noise and improve trajectory visualization.
 
 ---
 
@@ -41,8 +40,10 @@ The following files can be executed directly:
 `MainCase5.java`.
 
 ### Using the Smoothing Function
-You can use the tool to process custom heading data:
-``double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);``
+You can use the following function to process stepwise signals:
+```
+double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);
+```
 
 ---
 
