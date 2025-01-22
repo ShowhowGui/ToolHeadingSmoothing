@@ -40,7 +40,7 @@ The following files can be executed directly:
 `MainCase5.java`.
 
 ### Using the Smoothing Function
-You can use the following function to process stepwise signals:
+You can use the following functiotn to process stepwise signals:
 ```
 double[] smoothedHeadingDeg = Smoother.getSmoothed(headingDeg);
 ```
